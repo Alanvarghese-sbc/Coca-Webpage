@@ -40,7 +40,7 @@ background: linear-gradient(90deg, rgba(163, 39, 39, 1) 55%, rgba(253, 29, 29, 1
     display: flex;
     align-items: center;
     justify-content:right;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .logodiv img{
@@ -72,11 +72,13 @@ background: linear-gradient(90deg, rgba(163, 39, 39, 1) 55%, rgba(253, 29, 29, 1
     align-items: center;
     padding: 50px;
     text-align: center;
+    color: white;
 }
 
 .desdiv p{
     font-size: 24px;
 }
+
 .imgdiv{
     width: 50%;
     height: 90vh;
@@ -85,4 +87,7 @@ background: linear-gradient(90deg, rgba(163, 39, 39, 1) 55%, rgba(253, 29, 29, 1
     align-items: center;
 }
 
-
+.imgdiv img{
+    width: 85%;
+    height: 90vh;
+}
