@@ -1,0 +1,88 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+.d1{
+    width: 100%;
+    height: 100vh;
+    background: #a32727;
+background: linear-gradient(90deg, rgba(163, 39, 39, 1) 55%, rgba(253, 29, 29, 1) 88%, rgba(252, 176, 69, 1) 100%);
+}
+
+.d2{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0 100px;
+}
+
+.d3
+{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+.logodiv{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navdiv{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    font-size: 30px;
+}
+
+.logodiv img{
+    width: 50%;
+    filter: drop-shadow(0 0 20px rgba(255, 0, 0, 0.8));
+   margin-top: 10px;
+}
+
+.navdiv span{
+    margin: 0px 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    cursor: pointer;
+    transition:color 0.3s ease;
+}
+
+.navdiv span:hover{
+    color:#be2b36 ;
+   
+}
+
+.desdiv
+{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.desdiv p{
+    font-size: 24px;
+}
+.imgdiv{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
