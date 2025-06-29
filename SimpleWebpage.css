@@ -89,5 +89,9 @@ background: linear-gradient(90deg, rgba(163, 39, 39, 1) 55%, rgba(253, 29, 29, 1
 
 .imgdiv img{
     width: 85%;
-    height: 90vh;
+    height: 80vh;
 }
+.imgdiv img:hover{
+    animation:wobble 10s;
+}
+    
